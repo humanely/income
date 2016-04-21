@@ -1,0 +1,224 @@
+.text-broke,.form-broke{
+	float: left;
+	
+	font-size:2rem;
+	line-height:1.2em;
+	
+}
+
+	@media (min-width: 450px){
+		.text-broke,.form-broke{font-size:2.2rem;
+		}}
+
+	@media (min-width: 1600px){
+		.text-broke,.form-broke{font-size:2.5rem;
+		}}
+
+.text-code,.form-code{
+	float: left;
+	font-size:1rem;
+	line-height:1.2em;
+	font-family:"minion-pro-display" , COURIER;
+	-webkit-font-variant-ligatures:contextual;
+	-moz-font-variant-ligatures:contextual;
+	font-variant-ligatures:contextual;
+	text-rendering:optimizeLegibility}
+
+	@media (min-width: 450px){
+		.text-code,.form-code{font-size:1.8rem;
+		}}
+
+	@media (min-width: 1600px){
+		.text-code,.form-code{font-size:2.5rem;
+		}}
+
+.text-title,.form-text{
+	font-size:3rem;
+	line-height:1.2em;
+	font-family:"minion-pro-display" , serif;
+	-webkit-font-variant-ligatures:contextual;
+	-moz-font-variant-ligatures:contextual;
+	font-variant-ligatures:contextual;
+	text-rendering:optimizeLegibility}
+
+	@media (min-width: 450px){
+		.text-title,.form-text{font-size:4rem;
+		}}
+
+	@media (min-width: 1600px){
+		.text-title,.form-text{font-size:5.5rem;
+		}}
+
+	.text-subtitle,.form-button{
+		font-size:1.8rem;
+		line-height:1.2em;
+	font-family:"minion-pro-display" , serif;
+	-webkit-font-variant-ligatures:contextual;
+	-moz-font-variant-ligatures:contextual;
+	font-variant-ligatures:contextual;
+	text-rendering:optimizeLegibility
+}
+	@media (min-width: 450px){
+		.text-subtitle,.form-button{
+			font-size:2.5rem;
+		}
+	}
+	@media (min-width: 1600px){
+		.text-subtitle,.form-button{
+			font-size:3.5rem;
+		}
+		}
+	*{box-sizing:border-box}*:after,*.before{
+		box-sizing:border-box
+		}
+	html,body,div,main,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
+		box-sizing:border-box;
+		margin:0;
+		padding:0;
+		border:0;
+		outline:0;
+		font-size:100%;
+		font-weight:inherit;
+		font-style:inherit;
+		font-family:inherit;
+		vertical-align:baseline
+		}
+	article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary,main{display:block}
+
+	*{
+		-webkit-tap-highlight-color:transparent;
+		-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	-webkit-font-smoothing:antialiased
+}
+
+	a{text-decoration:none}
+
+	body{line-height:1}
+
+	ol,ul{list-style-type:none}
+
+	table{border-collapse:collapse;
+		border-spacing:0}
+
+	caption,th,td{text-align:left;
+		font-weight:normal}
+
+	input,textarea{-webkit-border-radius:0;
+		-moz-border-radius:0}
+
+	button,input[type="button"]{background:0}\:required{-o-box-shadow:none;
+		-ms-box-shadow:none;
+	box-shadow:none}
+
+	em,i{
+		font-style:italic}
+
+	strong,b{
+		font-weight:bold}u{text-decoration:underline}
+
+	pre,code{font-family:Monaco,Courier,monospace}
+
+	pre{white-space:pre;
+		white-space:pre-wrap;
+	white-space:pre-line;
+	word-wrap:break-word}
+	blockquote,q{quotes:"" ""}
+
+	blockquote:before,blockquote:after{content:""}
+	q:before,q:after{content:""}
+	a{cursor:pointer}
+	input[type="submit"],input[type="button"]{cursor:pointer}
+	button,label[for]{cursor:pointer}
+	img{-ms-interpolation-mode:bicubic}.c:before,.c:after{
+		content:" ";
+		display:table
+		}.c:after{
+			clear:both
+			}.c{*zoom:1}
+			html{
+				font-size:62.5%;
+				height:100%
+			}
+
+	body{height:100%}
+
+	main{display:-webkit-box;
+		display:-webkit-flex;
+		display:-ms-flexbox;
+		display:flex;
+		height:100%;
+		width:100vw;
+		-webkit-flex-wrap:wrap;
+		-ms-flex-wrap:wrap;
+		flex-wrap:wrap;
+		font-weight:700
+	}.column{
+		-webkit-box-flex:1;
+		-webkit-flex:1 1 100%;
+		-ms-flex:1 1 100%;
+		flex:1 1 100%;
+		height:40rem
+		}
+	@media (min-width: 1200px){.column{-webkit-box-flex:1;
+		-webkit-flex:1 1 33%;
+	-ms-flex:1 1 33%;
+	flex:1 1 33%;
+	height:100%;
+	}}.column:nth-child(1),.column:nth-child(3){background:black}.column:nth-child(1) *,.column:nth-child(3) *{color:white;
+		fill:white}.column:nth-child(2){background:white}.column:nth-child(2) *{color:black;
+		fill:black}.logo-container{
+			display:-webkit-box;
+		display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack:center;
+	-webkit-justify-content:center;
+	-ms-flex-pack:center;
+	justify-content:center;
+	-webkit-box-align:center;
+	-webkit-align-items:center;
+	-ms-flex-align:center;
+	align-items:center}.logo{display:block;
+		width:20rem;
+	height:auto}@media (min-width: 1600px){.logo{width:30rem;
+		}}.text-container{display:-webkit-box;
+		display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack:center;
+	-webkit-justify-content:center;
+	-ms-flex-pack:center;
+	justify-content:center;
+	-webkit-box-align:center;
+	-webkit-align-items:center;
+	-ms-flex-align:center;
+	align-items:center;
+	padding:3rem;
+	text-align:center}.text-subtitle{font-style:italic}.form-container{display:-webkit-box;
+		display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack:center;
+	-webkit-justify-content:center;
+	-ms-flex-pack:center;
+	justify-content:center;
+	-webkit-box-align:center;
+	-webkit-align-items:center;
+	-ms-flex-align:center;
+	align-items:center;
+	text-align:center}.form-button,.form-text{margin:0;
+		padding:0;
+	font-family:"minion-pro-display" , serif;
+	background:none;
+	border:none;
+	font-weight:700;
+	display:block;
+	text-align:center;
+	outline:none;
+	width:100%}.form-text{font-style:italic}::-webkit-input-placeholder{color:inherit;
+		-webkit-transition:opacity 200ms;
+	transition:opacity 200ms}:-moz-placeholder{color:inherit;
+		transition:opacity 200ms}::-moz-placeholder{color:inherit;
+		transition:opacity 200ms}:-ms-input-placeholder{color:inherit;
+		transition:opacity 200ms}:focus::-webkit-input-placeholder{opacity:0.25}:focus:-moz-placeholder{opacity:0.25}:focus::-moz-placeholder{opacity:0.25}:focus:-ms-input-placeholder{opacity:0.25}
