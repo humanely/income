@@ -333,19 +333,22 @@ to rejig your IT & enabling technology experience!"><span class="ti-twitter-alt"
         <div class="row contact">
           <div class="col-md-6 contact-form">
             <h3 class="content-ct"><span class="ti-email"></span> Contact Form</h3>
-            <form class="form-horizontal" data-toggle="validator" role="form">
+            <form class="form-horizontal" data-toggle="validator" role="form" action="https://formspree.io/prabhatkr@gmail.com"
+      method="POST">
               <div class="form-group">
                 <label for="name" class="col-sm-3 control-label">Name<sup>*</sup></label>
                 <div class="col-sm-9">
-                  <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+                  <input type="text" class="form-control" id="name" placeholder="John Doe" name="name" required>
                   <div class="help-block with-errors pull-right"></div>
                   <span class="form-control-feedback" aria-hidden="true"></span>
                 </div>
               </div>
+              <input type="hidden" name="_subject" value="New submission!" />
+              <input type="hidden" name="_next" value="http://www.i-c.tech" />
               <div class="form-group">
                 <label for="email" class="col-sm-3 control-label">Email<sup>*</sup></label>
                 <div class="col-sm-9">
-                  <input type="email" class="form-control" id="email" placeholder="you@youremail.com" required>
+                  <input type="email" class="form-control" id="email" placeholder="you@youremail.com"  name="_replyto" required>
                   <div class="help-block with-errors pull-right"></div>
                   <span class="form-control-feedback" aria-hidden="true"></span>
                 </div>
@@ -353,7 +356,7 @@ to rejig your IT & enabling technology experience!"><span class="ti-twitter-alt"
               <div class="form-group">
                 <label for="message" class="col-sm-3 control-label">Your Message<sup>*</sup></label>
                 <div class="col-sm-9">
-                  <textarea id="message" class="form-control" rows="3" required></textarea>
+                  <textarea id="message" class="form-control" rows="3" name="message" required></textarea>
                   <div class="help-block with-errors pull-right"></div>
                   <span class="form-control-feedback" aria-hidden="true"></span>
                 </div>
