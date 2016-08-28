@@ -141,6 +141,10 @@ a:hover, a:focus, a:active, a:visited {
 	padding: 20px;
 	margin-top: 30px;
 }
+.feature{
+    max-height: 15em;
+    min-height: 15em;
+}
 .feature span {
 	font-size: 5em;
     color: #016cc7;
@@ -155,6 +159,9 @@ a:hover, a:focus, a:active, a:visited {
   	border: 3px solid #f6f6f6;
     border-radius: 5px;
 }
+.feature .show{
+    border: 1px solid #f6f6f6;
+}
 .speaker .feature:hover {
     box-shadow: 3px 3px 10px #ccc;
     transform: translateY(-10px);
@@ -163,6 +170,12 @@ a:hover, a:focus, a:active, a:visited {
 	max-width: 40%;
     border: 4px solid #efefef;
     border-radius: 50%;
+}
+.rnd-img {
+    max-width: 40%;
+    border: 1px solid #efefef;
+    border-radius: 5%;
+    
 }
 ul.speaker-social li {
 	list-style: none;
